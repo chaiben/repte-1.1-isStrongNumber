@@ -13,7 +13,7 @@ function isStrongNumber(number){
     return NOT_STRONG
 
   let total = 0;
-  number.toString().split("").map(n => total = total + factorial(n));
+  number.toString().split("").forEach(n => total = total + factorial(n));
 
   return total === number ? STRONG : NOT_STRONG;
 }

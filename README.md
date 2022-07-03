@@ -19,11 +19,13 @@ Lliurament únicament la classe amb la funció / funcions necessàries.
 La funció isStrongNumber sempre ha d'existir dins de la classe i és la que es trucarà per a les proves.
 
 Exemples
+```
 isStrongNumber(1) ==> return "STRONG!!!!"
 isStrongNumber(123) ==> return "Not Strong !!"
 isStrongNumber(2)  ==>  return "STRONG!!!!"
 isStrongNumber(150) ==> return "Not Strong !!"
+```
 
-# Solucción
+# Solución
 - Vanila JavaScrip - isStrongNumber.js
 - JEST como herramienta de test. Archivo de test: isStrongNumber.test.js

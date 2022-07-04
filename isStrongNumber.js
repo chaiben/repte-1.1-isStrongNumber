@@ -12,6 +12,9 @@ function isStrongNumber(number){
   if(typeof number !== 'number')
     return NOT_STRONG
 
+  if(number < 0)
+    return NOT_STRONG
+
   let total = 0;
   number.toString().split("").forEach(n => total = total + factorial(n));
 

@@ -21,3 +21,12 @@ test('Test isStrongNumber 150', () => {
 test('Test isStrongNumber 145', () => {
   expect(isStrongNumber(145)).toBe("STRONG!!!!");
 });
+test('Test isStrongNumber -1', () => {
+  expect(isStrongNumber(-1)).toBe("Not Strong !!");
+});
+test('Test isStrongNumber -2', () => {
+  expect(isStrongNumber(-2)).toBe("Not Strong !!");
+});
+test('Test isStrongNumber -145', () => {
+  expect(isStrongNumber(-145)).toBe("Not Strong !!");
+});
